@@ -1,0 +1,178 @@
+.content-items{
+ font-family: Roboto, Medium;
+ font-size: 25px;
+ font-weight:600;
+ color: rgba(62, 62, 62, 1);
+}
+
+.content-name{
+    font-family: Roboto, Regular;
+    font-size: 15px; 
+    font-weight: 600; 
+    color:rgba(62, 62, 62, 1);
+}
+
+.content-div{
+ height: 100px; 
+ background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+}
+
+
+.red{
+    color: rgb(218, 56, 56);
+}
+
+.green{
+    color: rgba(48, 133, 48, 0.671);
+}
+
+.orange{
+    color: rgb(223, 121, 25);
+}
+
+.yellow{
+    color: rgb(201, 201, 31);
+}
+
+
+.radio-checked{
+    width: 40px;
+}
+  
+.countryName{
+    display: flex;
+    align-items: center;
+}
+
+.font{
+    font-size: 15px;
+}
+
+.sidebar-flex{
+    width: 200px;
+     height: 100vh;
+}
+
+
+.paid{
+    color: rgb(31, 204, 31);
+}
+
+.pending{
+    color: rgba(186, 186, 186, 1);
+}
+
+.failed{
+    color: red;
+}
+
+
+
+@media only screen and (max-width: 860px) {
+    .media-query{
+        flex-direction: column;
+    }
+
+    .sidebar-flex{
+        width: 100%;
+    }
+  }
+
+
+
+
+
+/* Innerpage */
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form{
+    position: relative;
+}
+
+
+.form input{
+    outline: none;
+}
+
+
+.form label{
+    position: absolute;
+    top: 6px;
+    left: 22px;
+    transition: top .3s;
+}
+
+.form input:focus{
+    box-shadow: none;
+}
+
+.form input:focus ~ label{
+    top: -13px;
+    padding: 0 5px;
+    background-color: white;
+}
+
+
+.focus input:focus{
+    border-color: red;
+}
+
+
+.disabled-border input:focus{
+   border: dotted;
+}
+
+
+#valid{
+    color: red;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+.size{
+    font-size: 12px;
+    padding-top: 6px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+
+.file{
+    width: 270px;
+}
+
+
+.font-size{
+    font-size: 40px;
+}
+
+.login{
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 400px) {
+    .font-size{
+        font-size: 25px;
+    }
+
+    .login{
+        font-size: 16px;
+    }
+  }
+
+
+  .dash-icon{
+    top: 100px;
+    height: 40px;
+    width: 60px;
+
+}
+
+

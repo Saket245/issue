@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+
+
+   <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid d-flex align-items-center">
+        <div class="me-5">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/menu-bar.svg" alt=""
+          /></a>
+          <a class="navbar-brand" href="#"
+            ><img src="./images/favicon.ico" alt="" style="width: 25px"
+          /></a>
+          <a class="navbar-brand" href="#">Company</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="d-flex align-items-center m-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><img
+                    src="./images/search-icon.svg"
+                    alt=""
+                    style="width: 20px"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <form class="d-flex" role="search">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    /></form
+                ></a>
+              </li>
+            </div>
+          </ul>
+
+          <div class="d-flex align-items-center justify-content-center">
+            <div>
+            <a class="navbar-brand" href="#"
+              ><img src="./images/notification-icon.svg" alt="" class="me-3"
+            /></a>
+            <a class="navbar-brand" href="#"
+              ><img src="./images/profile.png" alt="" style="width: 40px"
+            /></a>
+            <a
+              class="navbar-brand"
+              href="#"
+              style="font-size: 15px; margin-left: -8px"
+              >John Doe</a
+            >
+            <a class="navbar-brand" href="#" style="margin-left: -10px"
+              ><img src="./images/downward-arrow.svg" alt=""
+            /></a>
+        </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar -->
+
+
+
+    <hr>
+
+
+
+    <!-- sidebar -->
+
+    <div class="d-flex media-query">
+
+    <div class="d-flex flex-column flex-shrink-0 sidebar-flex" style="margin-bottom: 20px;">
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="d-flex align-items-center mb-3">
+            <a href="#" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              <img src="./images/dashboard-active.svg" alt="" width="25px">
+            </a>
+            <a href="#" class="nav-link link-body-emphasis" style="margin-left: -55px;">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              Dashboard
+            </a>
+          </li>
+  
+          <li class="d-flex align-items-center mb-3">
+            <a href="#" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              <img src="./images/graph-default.svg" alt="" width="25px">
+            </a>
+            <a href="#" class="nav-link link-body-emphasis" style="margin-left: -55px;">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              Analysis
+            </a>
+          </li>
+  
+          <li class="d-flex align-items-center mb-3">
+            <a href="#" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              <img src="./images/inbox-default.svg" alt="" width="25px">
+            </a>
+            <a href="#" class="nav-link link-body-emphasis" style="margin-left: -55px;">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              Inbox
+            </a>
+          </li>
+  
+          <li class="d-flex align-items-center mb-3">
+            <a href="#" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              <img src="./images/clock-default.svg" alt="" width="25px">
+            </a>
+            <a href="#" class="nav-link link-body-emphasis" style="margin-left: -55px;">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              History
+            </a>
+          </li>
+  
+          <li class="d-flex align-items-center mb-3">
+            <a href="#" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              <img src="./images/user-default.svg" alt="" width="25px">
+            </a>
+            <a href="#" class="nav-link link-body-emphasis" style="margin-left: -55px;">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              Users
+            </a>
+          </li>
+  
+          <li class="d-flex align-items-center mb-3">
+            <a href="#" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              <img src="./images/maintenance-default.svg" alt="" width="25px">
+            </a>
+            <a href="#" class="nav-link link-body-emphasis" style="margin-left: -55px;">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              Maintenance
+            </a>
+          </li>
+  
+          <li class="d-flex align-items-center mb-3">
+            <a href="#" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              <img src="./images/setting-default.svg" alt="" width="25px">
+            </a>
+            <a href="#" class="nav-link link-body-emphasis" style="margin-left: -55px;">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              setting
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- sidebar --> 
+
+
+
+
+      <!-- content -->
+
+    <div class="container-fluid">
+        <h1 class="mt-3">Dashboard</h1>
+
+ <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col-lg col-sm-6   d-flex justify-content-center align-items-center content-div">
+                <img src="./images/star.svg" alt="" class="me-3" style="width: 45px;">
+                <div class="d-flex flex-column">
+                <p class="mb-0 content-items">23,456</p> 
+                <p class="mb-0 content-name">New Products</p>
+                </div>
+            </div>
+            <div class="col-lg col-sm-6  d-flex justify-content-center align-items-center content-div">
+                <img src="./images/new-product.svg" alt="" class="me-3" style="width: 45px;">
+                <div class="d-flex flex-column">
+                <p class="mb-0 content-items">2345</p>
+                <p class="mb-0 content-name">Added Products</p>
+                </div>
+            </div>
+            <div class="col-lg col-sm-6  d-flex justify-content-center align-items-center content-div">
+                <img src="./images/total-product.svg" alt="" class="me-3" style="width: 45px;">
+                <div class="d-flex flex-column">
+                <p class="mb-0 content-items">32,456</p>
+                <p class="mb-0 content-name">Total Products</p>
+                </div>
+            </div>
+            <div class="col-lg col-sm-6  d-flex justify-content-center align-items-center content-div">
+                <img src="./images/dollar-filled.svg" alt="" class="me-3" style="width: 45px;">
+                <div class="d-flex flex-column">
+                <p class="mb-0 content-items">5678</p>
+                <p class="mb-0 content-name">Today's Sale</p>
+                </div>
+            </div>
+            <div class="col-lg col-sm-6  d-flex justify-content-center align-items-center content-div">
+                <img src="./images/money-bag.svg" alt="" class="me-3" style="width: 45px;">
+                <div class="d-flex flex-column">
+                <p class="mb-0 content-items">33,5342</p>
+                <p class="mb-0 content-name">Total Sale</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+             <div class="row">
+                <div class="col-lg-8">
+                    <div class="d-flex justify-content-between">
+                        <p>Sale</p>
+                        <div class="d-flex gap-2">
+                            <p>Weekly</p>
+                            <p>Monthly</p>
+                            <p>Yearly</p>
+                        </div>
+                    </div>
+                    <img src="./images/data-graph.png" alt="" style="width: 100%;">
+                </div>
+                <div class="col-lg-4">
+                    <p>Sales by Country</p>
+                    <div class=" d-flex flex-column align-items-center">
+                    <img src="./images/pie-chart.svg" alt="" class="image-fluid">
+                    <div class="radio">
+                        <div class="row">
+                        <div class="countryName col-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill red radio-checked" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8"/>
+                              </svg>
+                            <p class="font mb-0">United States of America</p>
+                        </div>
+
+                        <div class="countryName col-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill green radio-checked" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8"/>
+                              </svg>
+                            <p class="font mb-0">Canada</p>
+                        </div>
+                    </div>
+
+                <div class="row">
+                        <div class="countryName col-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill orange radio-checked" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8"/>
+                              </svg>
+                            <p class="font mb-0">Russia</p>
+                        </div>
+
+                        <div class="countryName col-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill yellow radio-checked" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8"/>
+                              </svg>
+                            <p class="font mb-0">India</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+             </div>
+    </div>
+
+
+
+<div style="background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;">
+    <div class="invoices-view mt-5">
+        <h2 class="heading1">Invoices</h2>
+        <p class="redLeft">view all</p>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th scope="col">INVOICE</th>
+              <th scope="col">COMPANY NAME</th>
+              <th scope="col">EMAIL</th>
+              <th scope="col">DUE DATE</th>
+              <th scope="col">STATUS</th>
+              <th scope="col">AMOUNT</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>651535</td>
+              <td>Public Adjusting Firm</td>
+              <td>georgia.young@example.com</td>
+              <td>24 May, 2020</td>
+              <td><span class="paid">Paid</span></td>
+              <td>$98,000</td>
+            </tr>
+            <tr>
+              <td>558612</td>
+              <td>Vendor</td>
+              <td>alma.lawson@example.com</td>
+              <td>8 Sep, 2020</td>
+              <td><span class="paid">Paid</span></td>
+              <td>$20,900</td>
+            </tr>
+            <tr>
+              <td>558612</td>
+              <td>Property Management Company</td>
+              <td>kenzi.lawson@example.com</td>
+              <td>22 Oct, 2020</td>
+              <td><span class="paid">Paid</span></td>
+              <td>$10,570</td>
+            </tr>
+            <tr>
+              <td>651535</td>
+              <td>Subcontractor Company</td>
+              <td>jackson.graham@example.com</td>
+              <td>1 Feb, 2020</td>
+              <td><span class="failed">Failed </span></td>
+              <td>$10,200</td>
+            </tr>
+            <tr>
+              <td>653518</td>
+              <td>Mortgage Company</td>
+              <td>felicia.reid@example.com</td>
+              <td>22 Oct, 2020</td>
+              <td><span class="pending">Pending</span></td>
+              <td>$12,600</td>
+            </tr>
+            <tr>
+              <td>487441</td>
+              <td>TPA</td>
+              <td>dolores.chambers@example.com</td>
+              <td>21 Sep, 2020</td>
+              <td><span class="paid">Paid</span></td>
+              <td>$11,170</td>
+            </tr>
+            <tr>
+              <td>267400</td>
+              <td>Fire Department</td>
+              <td>nevaeh.simmons@example.com</td>
+              <td>17 Oct, 2020</td>
+              <td><span class="failed">Failed</span></td>
+              <td>$28,000</td>
+            </tr>
+            <tr>
+              <td>449003</td>
+              <td>Insurance Carrier</td>
+              <td>curtis.weaver@example.com</td>
+              <td>21 Sep, 2020</td>
+              <td><span class="paid">Paid</span></td>
+              <td>$10,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  
+    </div>
+    
+</div>
+
+  </body>
+</html>
